@@ -1,0 +1,54 @@
+.form {
+  &__box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 128, 0.062);
+    height: 100%;
+    width: 100%;
+  }
+  border-radius: 5px;
+  background-color: #6b8df1;
+  padding: 80px 50px;
+  max-width: 800px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  &__inner {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+  }
+  &__input {
+    width: 100%;
+    border-style: none;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1.3em;
+    overflow: hidden;
+  }
+  &__btn {
+    background-color: seagreen;
+    border-style: none;
+    padding: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(67, 187, 119);
+    }
+  }
+  &__subtitle {
+    color: rgba(255, 255, 255, 0.342);
+    align-self: flex-end;
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,41 @@
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__title{
+    max-width: 400px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    label {
+      align-self: flex-start;
+      margin-bottom: 2px;
+    }
+    input {
+      margin-bottom: 10px;
+      border-style: none;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1.1em;
+    }
+  }
+  &__btn {
+    border-style: none;
+    padding: 0.5em;
+    max-width: 200px;
+    align-self: center;
+    background-color: rgba(244, 165, 96, 0.658);
+    transition: all 0.31s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2d2d2d;
+    font-weight: 600;
+    &:hover{
+        background-color: sandybrown;
+    }
+  }
+}
